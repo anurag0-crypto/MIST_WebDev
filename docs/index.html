@@ -1,17 +1,59 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>  My Personal Blog  </title>
-        <link rel="stylesheet" href="style.css">
-      
-    </head>
-    <body>
-        <div class="page">
-        <h1 style="color: red;">About Myself</h1>
-        <p> Hi! I am Anurag. I am a first year CSE Student in MIT Manipal. I completed my first semester about 3 weeks ago.</p>
-        <p> I love listening to music in my free time and playing chess and videogames.</p>
-        <p> Besides is my study table setup(I wish   : |  )</p>
-         <img src = "aesthetic-study-table-decor.jpg" width="500 px">
-        </div>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anurag's Personal Blog</title>
+    <link href="tailwind.css" rel="stylesheet">
+</head>
+<body style="background: linear-gradient(135deg, #e0f7fa 0%, #e8f5e9 100%); color: #374151; font-family: sans-serif;">
+    <!-- Header -->
+    <header class="bg-green-100 p-6 shadow-md">
+        <h1 class="text-4xl font-extrabold text-green-700 text-center">
+            Welcome to My Personal Blog 🎉
+        </h1>
+        <p class="text-center mt-2 text-gray-600">A little corner about me and my passions</p>
+    </header>
+
+    <!-- Main content -->
+    <main class="max-w-3xl mx-auto p-6 mt-8 bg-white shadow-lg rounded-lg">
+
+        <!-- About Me Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold text-red-600 mb-4 border-b-2 border-red-300 pb-2">
+                About Myself
+            </h2>
+            <p class="mb-2">
+                Hi! I am <span class="font-semibold">Anurag</span>. I am a first year CSE Student at <span class="italic">MIT Manipal</span>. I completed my first semester about 3 weeks ago.
+            </p>
+            <p class="mb-2">
+                I love listening to music in my free time and playing chess and videogames.
+            </p>
+            <p class="mb-4">
+                Here's my dream study table setup (I wish 😅):
+            </p>
+            <img src="aesthetic-study-table-decor.jpg" alt="Aesthetic study table setup" class="w-full rounded-lg shadow-md">
+        </section>
+
+        <!-- Hobbies Section -->
+        <section>
+            <h2 class="text-2xl font-bold text-blue-600 mb-4 border-b-2 border-blue-300 pb-2">
+                Hobbies & Interests
+            </h2>
+            <ul class="list-disc list-inside space-y-1">
+                <li>Listening to music 🎧</li>
+                <li>Playing chess ♟️</li>
+                <li>Playing video games 🎮</li>
+                <li>Exploring tech and programming 💻</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="mt-12 text-center text-gray-500 text-sm mb-6">
+        &copy; 2026 Anurag. All rights reserved.
+    </footer>
+
+</body>
 </html>
