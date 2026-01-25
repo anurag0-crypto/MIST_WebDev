@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #a8edea, #d0f4de);
+  color: #2c3e50;
+}
+
+/* NAV */
+nav {
+  background: rgba(0, 0, 0, 0.65);
+  padding: 12px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  color: #ecf0f1;
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+nav li.active,
+nav li:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+/* CONTENT */
+main {
+  padding: 30px;
+}
+
+h1 {
+  color: #1f4f82;
+}
+
+/* IMAGE CARD */
+.image-card {
+  position: relative;
+  width: 350px;
+  margin: 20px 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.image-card img {
+  width: 100%;
+  display: block;
+}
+
+/* OVERLAY TEXT */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.65);
+  color: white;
+  padding: 12px;
+  font-size: 14px;
+}
+
+.reveal-btn {
+  cursor: pointer;
+  font-weight: bold;
+  color: #a8edea;
+}
+
+.reveal-btn:hover {
+  text-decoration: underline;
+}
+
+.hidden-text {
+  margin-top: 6px;
+  font-style: italic;
+  display: none;
+}
+
+/* GENERAL */
+.hidden {
+  display: none;
+}
+
+.about-text {
+  max-width: 600px;
+}
